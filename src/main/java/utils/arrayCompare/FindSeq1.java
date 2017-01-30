@@ -8,6 +8,7 @@ public class FindSeq1 {
 	/**
 	 * Function to check if an array 'data' has all the elements that are in another array 'find', and in the same order as they appear in
 	 * the 'find' array.
+	 * Test 1.
 	 */
 	public boolean isArray2FoundInSeq(int[] data, int[] find) {
 		if (data == null || find == null || find.length == 0 || data.length == 0) {
